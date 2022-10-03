@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  margin: 2rem auto;
+  flex-wrap: wrap;
+}
+
+.menu {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+  width: 100%;
+  flex-direction: column;
+}
+
+.board {
+  display: grid;
+}
+
+.label {
+  margin: 0;
+}
+
+.sliderWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.slider {
+  width: 100%;
+  min-height: 1.5rem;
+}
+
+.cell {
+  height: 2rem;
+  width: 2rem;
+}
+
+.colorToPick {
+  height: 5rem;
+  width: 7rem;
+}
+
+.instructions {
+  margin: 4rem 4rem 1rem;
+  font-size: 1.5rem;
+}
+
+.newGameButton {
+  background-color: #0271e1;
+  color: white;
+  border-radius: 4rem;
+  border: none;
+  min-height: 5.5rem;
+  width: 33%;
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.yellow {
+  background-color: #ffeb3b;
+}
+
+.orange {
+  background-color: #ff5722;
+}
+
+.green {
+  background-color: #4caf50;
+}
+
+.blue {
+  background-color: #1e88e5;
+}
+
+.purple {
+  background-color: #673ab7;
+}
+
+.brown {
+  background-color: #8d6e63;
+}
+
+.yellow:hover,
+.orange:hover,
+.green:hover,
+.blue:hover,
+.purple:hover,
+.brown:hover {
+  border: 0.3rem solid rgba(0, 0, 0, 0.3);
+}
